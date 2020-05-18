@@ -1,0 +1,40 @@
+{
+  "name": "refactoring-external",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "main": "ts-node index.ts"
+  },
+  "dependencies": {
+    "typescript": "^2.9.2",
+    "googleapis": "^51.0.0",
+    "ts-node": "^8.10.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@types/node": "^10.5.1",
+    "jest": "^23.3.0",
+    "ts-jest": "^23.0.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
+  }
+}
