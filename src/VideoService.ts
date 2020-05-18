@@ -4,7 +4,7 @@ import {google, youtube_v3} from 'googleapis'
 import Video from './Video'
 import YouTubeConnection from './YouTubeConnection'
 
-const API_KEY = 'AIzaSyCZaoOcS5dL7KpYFZhHB_cO5r1oNVqiqcM'
+const API_KEY = 'YOUR API KEY'
 
 export default class VideoService {
   async videoList(): Promise<string> {
